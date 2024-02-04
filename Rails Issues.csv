@@ -1,0 +1,501 @@
+issues,labels,dates,reporters
+Add missing alias to errors array,['activemodel'],2024-02-03 01:01:09,laomatt
+esbuild precompilation error in rails 7.1.3,['unlabeled'],2024-02-02 14:43:34,PhilippGsell
+Add webp as a default to active_storage.web_image_content_types,"['railties', 'docs', 'activestorage']",2024-02-02 12:51:26,lewispb
+set default_enforce_utf8 to false,['actionview'],2024-02-02 11:11:21,ironsand
+Add class name to enum validation exception message,['activerecord'],2024-02-02 11:07:18,amkisko
+Add a Rails Guide for tuning performance for deployment,['docs'],2024-02-02 10:55:44,noahgibbs
+Destroying bi-directional has_one through association only works from one end,['unlabeled'],2024-02-02 10:14:36,airblade
+ActiveStorage::IntegrityError (ActiveStorage::IntegrityError),['unlabeled'],2024-02-02 04:43:40,raoehtesham03
+Fix error raised when running `db:schema:load:#{name}` and test DB config is missing,"['activerecord', 'railties']",2024-02-02 03:17:31,ricardotk002
+Introduce today_or_future? method,['activesupport'],2024-02-02 00:44:50,olimart
+Enable DependencyTracker to evaluate interpolated paths,['actionview'],2024-02-01 23:46:28,skipkayhil
+Setup jemalloc in default Dockerfile to optimize memory allocation,['railties'],2024-02-01 22:55:15,northeastprince
+Retry `ActionableError`s when running tests,"['activesupport', 'railties', 'docs']",2024-02-01 21:50:43,andrewn617
+Should there be a RAILS_MASTER_KEY_DUMMY like SECRET_KEY_BASE_DUMMY?,['unlabeled'],2024-02-01 14:57:42,dorianmariefr
+Refactor QueryCache to be owned by the pool,['activerecord'],2024-02-01 13:40:41,casperisfine
+Add ability to see on which shard the migration is being run,['activerecord'],2024-02-01 11:23:15,fatkodima
+Rails 7.1 undefined method purge & same for variant using ruby 3.3.0-dev,"['activestorage', 'more-information-needed']",2024-02-01 05:45:14,kashifcodility
+Rails 7.1 doesn't render Enumerator in view correctly,['unlabeled'],2024-02-01 02:21:08,kuwabarahiroshi
+Fixes race condition for multiple preprocessed video variants,['activestorage'],2024-01-31 18:49:44,searls
+Support encrypting binary columns,['activerecord'],2024-01-30 10:53:34,djmb
+Add negative_scopes option to ActiveRecord's enum method,['activerecord'],2024-01-30 09:11:41,Jay0921
+Unexpected controller prefix path de-duplication in view partial lookup paths,['unlabeled'],2024-01-30 04:10:56,sfnelson
+Generate devcontainer files by default,"['actionpack', 'railties', 'activestorage', 'actionmailbox', 'actiontext']",2024-01-29 23:03:25,andrewn617
+[ci skip] [docs] make increment requirement explicit,['activesupport'],2024-01-29 00:07:29,jamiemccarthy
+[Fix #50897] Autosaving `has_one` sets foreign key attribute when unchanged,['activerecord'],2024-01-28 09:30:20,joshuay03
+Incorrectly raising `ReadonlyAttributeError` when autosaving `has_one` association with readonly foreign key,"['activerecord', 'attached PR']",2024-01-27 12:29:15,Earlopain
+Enhanced ActiveStorage variant tracking control,['activestorage'],2024-01-27 04:41:38,JaceBayless
+Add cost argument to has_secure_password,['activemodel'],2024-01-26 22:52:13,t27duck
+Documentation: Expand documentation on has_one_attached method [ci-skip].,['activestorage'],2024-01-26 20:02:30,Takahashi-Seiji
+Introduce `ActiveSupport::TestCase.around`,"['activesupport', 'docs']",2024-01-26 15:29:23,seanpdoyle
+"[Fix #50812] Don't duplicate selects, inner and outer joins when merging with STI",['activerecord'],2024-01-26 13:54:50,joshuay03
+Document Attached::Model#attachment_changes [ci skip],"['docs', 'activestorage']",2024-01-26 13:18:39,tsvallender
+Put plural inverse association inference behind a configuration flag,"['activerecord', 'railties']",2024-01-26 09:19:56,casperisfine
+Transform actionpack documentation to Markdown,['actionpack'],2024-01-25 19:53:03,rafaelfranca
+dump schema: ignore tables from any postgres schema,['activerecord'],2024-01-25 13:31:52,gagalago
+Comparing `Time` object with an integer doesn't throw an error ,"['activesupport', 'With reproduction steps']",2024-01-24 22:29:19,tgxworld
+Initialize ActiveRecord::Migrator.migrations_paths at application initialization,['activerecord'],2024-01-24 17:44:10,fsateler
+Accept Tempfile as ActiveStorage attachable,['activestorage'],2024-01-24 10:31:28,shouichi
+ActionView: Raise on invalid format,['actionview'],2024-01-24 08:37:24,3v0k4
+Support options for ActionMailer delivery callbacks,['actionmailer'],2024-01-23 23:16:27,fatkodima
+Document autosave validation behavior for ActiveRecord associations [ci skip],['activerecord'],2024-01-23 19:41:36,Dmoment
+Action View: Fallback to existing partial when possible,['actionview'],2024-01-23 15:19:52,seanpdoyle
+belongs_to association doesn't work with composite `primary_key` option,['activerecord'],2024-01-23 10:56:14,bguban
+Fixes ActionView::Template::Error when pasting images via Trix,['actiontext'],2024-01-23 02:14:58,schristm
+O(N^2) operation in `CollectionAssociation#replace_common_records_in_memory` and **another** O(N^2) operation in `ActiveStorage::Attached::Many#attach`,['unlabeled'],2024-01-23 01:29:33,malavbhavsar
+Set ActiveRecord::RecordNotFound#id when raised from a call to #reload a deleted record,['activerecord'],2024-01-23 00:04:37,segiddins
+`ActionView::Template::Error`: Missing Active Model partial when rendered from Controller declared in module,['unlabeled'],2024-01-22 22:05:18,seanpdoyle
+How to use Azure Managed Identity for authentication and authorization for Ruby On Rails Active Storage?,['unlabeled'],2024-01-22 16:41:34,avivansh
+Fix SQLite table definition parsing bug to handle commas in default function definitions,['activerecord'],2024-01-22 13:18:21,fractaledmind
+Ensure pre-7.1 migrations use legacy index names when using `rename_table`,['activerecord'],2024-01-22 12:59:01,fatkodima
+ActiveStorage::FileNotFoundError (ActiveStorage::FileNotFoundError),['more-information-needed'],2024-01-22 10:07:53,raoehtesham03
+`ActiveRecord::Migration[7.0]`'s `rename_table` uses 7.1's new truncated index name format,"['activerecord', 'attached PR', 'With reproduction steps']",2024-01-22 02:09:26,r7kamura
+Add support for `ActionMailer.*_delivery` callback `only` and `except` options,['actionmailer'],2024-01-21 12:31:43,viralpraxis
+Fix query references for non-hash association where clause values,['activerecord'],2024-01-21 06:11:40,ezekg
+Add examples for form helper tags [ci skip],['actionview'],2024-01-21 05:48:04,akhilgkrishnan
+System tests not working on Rails 7.1.3 running on a remote machine/docker container.,['unlabeled'],2024-01-21 00:44:06,srabuini
+[docs] Add more examples to `#in_order_of` [ci-skip],['activerecord'],2024-01-21 00:21:26,thdaraujo
+Add methods to `ActiveRecord::Relation::FinderMethods` to determine if it contains exactly/more than/less than N records,['activerecord'],2024-01-20 16:56:20,jordinl
+docs: Update validation status based on autosave status,['activerecord'],2024-01-20 09:24:46,MONSURU-rgb
+Add format constraints for generated pwa routes,['railties'],2024-01-19 23:10:41,rossta
+Redundant JOIN produced when merging relations from STI classes,['activerecord'],2024-01-19 20:59:12,mintyfresh
+Add multiple databases AR bug template [ci skip],['docs'],2024-01-19 12:54:28,HeyNonster
+Undocumented - validations enabled by autosave,['docs'],2024-01-19 10:47:52,semaperepelitsa
+PoC: Add an option to disable connection checkout caching,['activerecord'],2024-01-18 16:54:17,byroot
+`app:update` from Rails 7.1.2 to 7.1.3 creates `new_framework_defaults_7_1.rb`,['railties'],2024-01-18 16:15:11,GitToTheHub
+Add note about `params` hash in Action Controller Overview [ci skip] ,['docs'],2024-01-18 01:26:00,JunichiIto
+Preserve `--asset-pipeline propshaft` when running `app:update`,['railties'],2024-01-17 12:02:43,zachasme
+Tests can't run without yarn,['railties'],2024-01-16 21:11:58,arusa
+The `counter_cache_column?` method is depending of initialisation order.,['activerecord'],2024-01-16 15:54:58,BuonOmo
+Allow custom domain extractor class on ActionDispatch::Http::URL,['actionpack'],2024-01-15 23:32:04,rainerborene
+Improve documentation of ActiveRecord::Core.configurations,['activerecord'],2024-01-15 21:18:15,p8
+Migrate Rails API doc to use Markdown instead of RDoc format,['unlabeled'],2024-01-15 21:02:56,rafaelfranca
+Action Mailbox mistakes attachment as body if no body exists,['actionmailbox'],2024-01-15 08:23:19,HashNotAdam
+Allow named variants to evaluate dynamic transformation options,['activestorage'],2024-01-15 01:18:24,xjunior
+docs: Update FormHelper comments to use `form_with` instead of `form_for` [ci skip],['actionview'],2024-01-13 17:32:39,takatea
+docs: Adjust composite primary keys documentation [skip ci],['docs'],2024-01-12 18:49:57,matsales28
+Document passing hash as id option on create_table,['activerecord'],2024-01-12 17:21:32,javierav
+Action View Tests: Use `#with_routing` helper,"['railties', 'actionview']",2024-01-12 14:36:26,seanpdoyle
+Downcase the model name in the system scaffolds,['railties'],2024-01-12 10:51:23,dwightwatson
+Pool disabled query cache handling,['activerecord'],2024-01-12 09:06:56,djmb
+Expand documentation for ActiveRecord::Core #dup and #clone,['activerecord'],2024-01-11 19:46:53,p8
+Update `ActionDispatch::Routing::Mapper:Scoping#constraints` documentation,['actionpack'],2024-01-11 16:50:31,stevepolitodesign
+Backport: Define missing attribute methods from `method_missing`,['activerecord'],2024-01-11 08:26:24,casperisfine
+Add warning for non-existent directories in autoload paths for Zeitwerk,['railties'],2024-01-11 07:28:26,aeroastro
+Ignore the query cache in a block,['activerecord'],2024-01-10 10:47:07,djmb
+db:schema:load:<name> purges test database,"['activerecord', 'With reproduction steps']",2024-01-09 13:43:19,romuloceccon
+"`rails credentials:edit` lets you pass an unknown editor, without issuing any error report",['unlabeled'],2024-01-09 05:15:43,ArthurPV
+Rails 7.1 Create model with has_many with lambda incorrect default,"['activerecord', 'With reproduction steps']",2024-01-08 14:54:30,nikita-railsware
+Experiment | [Fix #47809] `load_async` support for collection associations,['activerecord'],2024-01-08 03:24:48,joshuay03
+Make `group`/`regroup` inside `merge` be applied to the merged relation,['activerecord'],2024-01-07 19:25:39,joaomarcos96
+Pass render options and block to calls to `#render_in`,"['actionpack', 'railties', 'docs', 'actionview']",2024-01-06 20:46:09,seanpdoyle
+Don't fail for uploads with content-type parameters in the ActiveStorage::DiskController,"['actionpack', 'activestorage']",2024-01-05 23:32:34,codergeek121
+allow dom_id method to accept an array of records_or_classes,['actionview'],2024-01-05 19:12:49,jwilsjustin
+[Fix #50604] Restore compatibility of Active Record Encryption configs with eager loading mode,"['activerecord', 'railties']",2024-01-05 18:03:09,maximerety
+Active Record Encryption configs not ready in eager loading mode,"['activerecord', 'attached PR']",2024-01-05 17:50:05,maximerety
+ActiveStorage::DiskController fails for uploads when Content-Type / media type contains a parameter,"['attached PR', 'With reproduction steps', 'activestorage']",2024-01-05 14:01:29,alexandergitter
+Document `upsert`/`upsert_all` `on_duplicate: :skip` option,['activerecord'],2024-01-05 13:49:07,lucasmazza
+Active Storage Variant causing Aws::S3::Errors::NoSuchKey error when deleting an attachment,['activestorage'],2024-01-04 18:44:36,basiszwo
+Port `ActiveRecord::AttributeMethods::Query` to Active Model,"['activemodel', 'activerecord']",2024-01-04 16:07:32,seanpdoyle
+CI: SQLite adapter is running in Trilogy tests,"['activerecord', 'ci issues']",2024-01-04 15:49:54,skipkayhil
+Add missing alias to errors array,['activemodel'],2024-02-03 01:01:09,laomatt
+esbuild precompilation error in rails 7.1.3,['unlabeled'],2024-02-02 14:43:34,PhilippGsell
+Add webp as a default to active_storage.web_image_content_types,"['railties', 'docs', 'activestorage']",2024-02-02 12:51:26,lewispb
+set default_enforce_utf8 to false,['actionview'],2024-02-02 11:11:21,ironsand
+Add class name to enum validation exception message,['activerecord'],2024-02-02 11:07:18,amkisko
+Add a Rails Guide for tuning performance for deployment,['docs'],2024-02-02 10:55:44,noahgibbs
+Destroying bi-directional has_one through association only works from one end,['unlabeled'],2024-02-02 10:14:36,airblade
+ActiveStorage::IntegrityError (ActiveStorage::IntegrityError),['unlabeled'],2024-02-02 04:43:40,raoehtesham03
+Fix error raised when running `db:schema:load:#{name}` and test DB config is missing,"['activerecord', 'railties']",2024-02-02 03:17:31,ricardotk002
+Introduce today_or_future? method,['activesupport'],2024-02-02 00:44:50,olimart
+Enable DependencyTracker to evaluate interpolated paths,['actionview'],2024-02-01 23:46:28,skipkayhil
+Setup jemalloc in default Dockerfile to optimize memory allocation,['railties'],2024-02-01 22:55:15,northeastprince
+Retry `ActionableError`s when running tests,"['activesupport', 'railties', 'docs']",2024-02-01 21:50:43,andrewn617
+Should there be a RAILS_MASTER_KEY_DUMMY like SECRET_KEY_BASE_DUMMY?,['unlabeled'],2024-02-01 14:57:42,dorianmariefr
+Refactor QueryCache to be owned by the pool,['activerecord'],2024-02-01 13:40:41,casperisfine
+Add ability to see on which shard the migration is being run,['activerecord'],2024-02-01 11:23:15,fatkodima
+Rails 7.1 undefined method purge & same for variant using ruby 3.3.0-dev,"['activestorage', 'more-information-needed']",2024-02-01 05:45:14,kashifcodility
+Rails 7.1 doesn't render Enumerator in view correctly,['unlabeled'],2024-02-01 02:21:08,kuwabarahiroshi
+Fixes race condition for multiple preprocessed video variants,['activestorage'],2024-01-31 18:49:44,searls
+Support encrypting binary columns,['activerecord'],2024-01-30 10:53:34,djmb
+Add negative_scopes option to ActiveRecord's enum method,['activerecord'],2024-01-30 09:11:41,Jay0921
+Unexpected controller prefix path de-duplication in view partial lookup paths,['unlabeled'],2024-01-30 04:10:56,sfnelson
+Generate devcontainer files by default,"['actionpack', 'railties', 'activestorage', 'actionmailbox', 'actiontext']",2024-01-29 23:03:25,andrewn617
+[ci skip] [docs] make increment requirement explicit,['activesupport'],2024-01-29 00:07:29,jamiemccarthy
+[Fix #50897] Autosaving `has_one` sets foreign key attribute when unchanged,['activerecord'],2024-01-28 09:30:20,joshuay03
+Incorrectly raising `ReadonlyAttributeError` when autosaving `has_one` association with readonly foreign key,"['activerecord', 'attached PR']",2024-01-27 12:29:15,Earlopain
+Enhanced ActiveStorage variant tracking control,['activestorage'],2024-01-27 04:41:38,JaceBayless
+Add cost argument to has_secure_password,['activemodel'],2024-01-26 22:52:13,t27duck
+Documentation: Expand documentation on has_one_attached method [ci-skip].,['activestorage'],2024-01-26 20:02:30,Takahashi-Seiji
+Introduce `ActiveSupport::TestCase.around`,"['activesupport', 'docs']",2024-01-26 15:29:23,seanpdoyle
+"[Fix #50812] Don't duplicate selects, inner and outer joins when merging with STI",['activerecord'],2024-01-26 13:54:50,joshuay03
+Document Attached::Model#attachment_changes [ci skip],"['docs', 'activestorage']",2024-01-26 13:18:39,tsvallender
+Put plural inverse association inference behind a configuration flag,"['activerecord', 'railties']",2024-01-26 09:19:56,casperisfine
+Transform actionpack documentation to Markdown,['actionpack'],2024-01-25 19:53:03,rafaelfranca
+dump schema: ignore tables from any postgres schema,['activerecord'],2024-01-25 13:31:52,gagalago
+Comparing `Time` object with an integer doesn't throw an error ,"['activesupport', 'With reproduction steps']",2024-01-24 22:29:19,tgxworld
+Initialize ActiveRecord::Migrator.migrations_paths at application initialization,['activerecord'],2024-01-24 17:44:10,fsateler
+Accept Tempfile as ActiveStorage attachable,['activestorage'],2024-01-24 10:31:28,shouichi
+ActionView: Raise on invalid format,['actionview'],2024-01-24 08:37:24,3v0k4
+Support options for ActionMailer delivery callbacks,['actionmailer'],2024-01-23 23:16:27,fatkodima
+Document autosave validation behavior for ActiveRecord associations [ci skip],['activerecord'],2024-01-23 19:41:36,Dmoment
+Action View: Fallback to existing partial when possible,['actionview'],2024-01-23 15:19:52,seanpdoyle
+belongs_to association doesn't work with composite `primary_key` option,['activerecord'],2024-01-23 10:56:14,bguban
+Fixes ActionView::Template::Error when pasting images via Trix,['actiontext'],2024-01-23 02:14:58,schristm
+O(N^2) operation in `CollectionAssociation#replace_common_records_in_memory` and **another** O(N^2) operation in `ActiveStorage::Attached::Many#attach`,['unlabeled'],2024-01-23 01:29:33,malavbhavsar
+Set ActiveRecord::RecordNotFound#id when raised from a call to #reload a deleted record,['activerecord'],2024-01-23 00:04:37,segiddins
+`ActionView::Template::Error`: Missing Active Model partial when rendered from Controller declared in module,['unlabeled'],2024-01-22 22:05:18,seanpdoyle
+How to use Azure Managed Identity for authentication and authorization for Ruby On Rails Active Storage?,['unlabeled'],2024-01-22 16:41:34,avivansh
+Fix SQLite table definition parsing bug to handle commas in default function definitions,['activerecord'],2024-01-22 13:18:21,fractaledmind
+Ensure pre-7.1 migrations use legacy index names when using `rename_table`,['activerecord'],2024-01-22 12:59:01,fatkodima
+ActiveStorage::FileNotFoundError (ActiveStorage::FileNotFoundError),['more-information-needed'],2024-01-22 10:07:53,raoehtesham03
+`ActiveRecord::Migration[7.0]`'s `rename_table` uses 7.1's new truncated index name format,"['activerecord', 'attached PR', 'With reproduction steps']",2024-01-22 02:09:26,r7kamura
+Add support for `ActionMailer.*_delivery` callback `only` and `except` options,['actionmailer'],2024-01-21 12:31:43,viralpraxis
+Fix query references for non-hash association where clause values,['activerecord'],2024-01-21 06:11:40,ezekg
+Add examples for form helper tags [ci skip],['actionview'],2024-01-21 05:48:04,akhilgkrishnan
+System tests not working on Rails 7.1.3 running on a remote machine/docker container.,['unlabeled'],2024-01-21 00:44:06,srabuini
+[docs] Add more examples to `#in_order_of` [ci-skip],['activerecord'],2024-01-21 00:21:26,thdaraujo
+Add methods to `ActiveRecord::Relation::FinderMethods` to determine if it contains exactly/more than/less than N records,['activerecord'],2024-01-20 16:56:20,jordinl
+docs: Update validation status based on autosave status,['activerecord'],2024-01-20 09:24:46,MONSURU-rgb
+Add format constraints for generated pwa routes,['railties'],2024-01-19 23:10:41,rossta
+Redundant JOIN produced when merging relations from STI classes,['activerecord'],2024-01-19 20:59:12,mintyfresh
+Add multiple databases AR bug template [ci skip],['docs'],2024-01-19 12:54:28,HeyNonster
+Undocumented - validations enabled by autosave,['docs'],2024-01-19 10:47:52,semaperepelitsa
+PoC: Add an option to disable connection checkout caching,['activerecord'],2024-01-18 16:54:17,byroot
+`app:update` from Rails 7.1.2 to 7.1.3 creates `new_framework_defaults_7_1.rb`,['railties'],2024-01-18 16:15:11,GitToTheHub
+Add note about `params` hash in Action Controller Overview [ci skip] ,['docs'],2024-01-18 01:26:00,JunichiIto
+Preserve `--asset-pipeline propshaft` when running `app:update`,['railties'],2024-01-17 12:02:43,zachasme
+Tests can't run without yarn,['railties'],2024-01-16 21:11:58,arusa
+The `counter_cache_column?` method is depending of initialisation order.,['activerecord'],2024-01-16 15:54:58,BuonOmo
+Allow custom domain extractor class on ActionDispatch::Http::URL,['actionpack'],2024-01-15 23:32:04,rainerborene
+Improve documentation of ActiveRecord::Core.configurations,['activerecord'],2024-01-15 21:18:15,p8
+Migrate Rails API doc to use Markdown instead of RDoc format,['unlabeled'],2024-01-15 21:02:56,rafaelfranca
+Action Mailbox mistakes attachment as body if no body exists,['actionmailbox'],2024-01-15 08:23:19,HashNotAdam
+Allow named variants to evaluate dynamic transformation options,['activestorage'],2024-01-15 01:18:24,xjunior
+docs: Update FormHelper comments to use `form_with` instead of `form_for` [ci skip],['actionview'],2024-01-13 17:32:39,takatea
+docs: Adjust composite primary keys documentation [skip ci],['docs'],2024-01-12 18:49:57,matsales28
+Document passing hash as id option on create_table,['activerecord'],2024-01-12 17:21:32,javierav
+Action View Tests: Use `#with_routing` helper,"['railties', 'actionview']",2024-01-12 14:36:26,seanpdoyle
+Downcase the model name in the system scaffolds,['railties'],2024-01-12 10:51:23,dwightwatson
+Pool disabled query cache handling,['activerecord'],2024-01-12 09:06:56,djmb
+Expand documentation for ActiveRecord::Core #dup and #clone,['activerecord'],2024-01-11 19:46:53,p8
+Update `ActionDispatch::Routing::Mapper:Scoping#constraints` documentation,['actionpack'],2024-01-11 16:50:31,stevepolitodesign
+Backport: Define missing attribute methods from `method_missing`,['activerecord'],2024-01-11 08:26:24,casperisfine
+Add warning for non-existent directories in autoload paths for Zeitwerk,['railties'],2024-01-11 07:28:26,aeroastro
+Ignore the query cache in a block,['activerecord'],2024-01-10 10:47:07,djmb
+db:schema:load:<name> purges test database,"['activerecord', 'With reproduction steps']",2024-01-09 13:43:19,romuloceccon
+"`rails credentials:edit` lets you pass an unknown editor, without issuing any error report",['unlabeled'],2024-01-09 05:15:43,ArthurPV
+Rails 7.1 Create model with has_many with lambda incorrect default,"['activerecord', 'With reproduction steps']",2024-01-08 14:54:30,nikita-railsware
+Experiment | [Fix #47809] `load_async` support for collection associations,['activerecord'],2024-01-08 03:24:48,joshuay03
+Make `group`/`regroup` inside `merge` be applied to the merged relation,['activerecord'],2024-01-07 19:25:39,joaomarcos96
+Pass render options and block to calls to `#render_in`,"['actionpack', 'railties', 'docs', 'actionview']",2024-01-06 20:46:09,seanpdoyle
+Don't fail for uploads with content-type parameters in the ActiveStorage::DiskController,"['actionpack', 'activestorage']",2024-01-05 23:32:34,codergeek121
+allow dom_id method to accept an array of records_or_classes,['actionview'],2024-01-05 19:12:49,jwilsjustin
+[Fix #50604] Restore compatibility of Active Record Encryption configs with eager loading mode,"['activerecord', 'railties']",2024-01-05 18:03:09,maximerety
+Active Record Encryption configs not ready in eager loading mode,"['activerecord', 'attached PR']",2024-01-05 17:50:05,maximerety
+ActiveStorage::DiskController fails for uploads when Content-Type / media type contains a parameter,"['attached PR', 'With reproduction steps', 'activestorage']",2024-01-05 14:01:29,alexandergitter
+Document `upsert`/`upsert_all` `on_duplicate: :skip` option,['activerecord'],2024-01-05 13:49:07,lucasmazza
+Active Storage Variant causing Aws::S3::Errors::NoSuchKey error when deleting an attachment,['activestorage'],2024-01-04 18:44:36,basiszwo
+Port `ActiveRecord::AttributeMethods::Query` to Active Model,"['activemodel', 'activerecord']",2024-01-04 16:07:32,seanpdoyle
+CI: SQLite adapter is running in Trilogy tests,"['activerecord', 'ci issues']",2024-01-04 15:49:54,skipkayhil
+Add missing alias to errors array,['activemodel'],2024-02-03 01:01:09,laomatt
+esbuild precompilation error in rails 7.1.3,['unlabeled'],2024-02-02 14:43:34,PhilippGsell
+Add webp as a default to active_storage.web_image_content_types,"['railties', 'docs', 'activestorage']",2024-02-02 12:51:26,lewispb
+set default_enforce_utf8 to false,['actionview'],2024-02-02 11:11:21,ironsand
+Add class name to enum validation exception message,['activerecord'],2024-02-02 11:07:18,amkisko
+Add a Rails Guide for tuning performance for deployment,['docs'],2024-02-02 10:55:44,noahgibbs
+Destroying bi-directional has_one through association only works from one end,['unlabeled'],2024-02-02 10:14:36,airblade
+ActiveStorage::IntegrityError (ActiveStorage::IntegrityError),['unlabeled'],2024-02-02 04:43:40,raoehtesham03
+Fix error raised when running `db:schema:load:#{name}` and test DB config is missing,"['activerecord', 'railties']",2024-02-02 03:17:31,ricardotk002
+Introduce today_or_future? method,['activesupport'],2024-02-02 00:44:50,olimart
+Enable DependencyTracker to evaluate interpolated paths,['actionview'],2024-02-01 23:46:28,skipkayhil
+Setup jemalloc in default Dockerfile to optimize memory allocation,['railties'],2024-02-01 22:55:15,northeastprince
+Retry `ActionableError`s when running tests,"['activesupport', 'railties', 'docs']",2024-02-01 21:50:43,andrewn617
+Should there be a RAILS_MASTER_KEY_DUMMY like SECRET_KEY_BASE_DUMMY?,['unlabeled'],2024-02-01 14:57:42,dorianmariefr
+Refactor QueryCache to be owned by the pool,['activerecord'],2024-02-01 13:40:41,casperisfine
+Add ability to see on which shard the migration is being run,['activerecord'],2024-02-01 11:23:15,fatkodima
+Rails 7.1 undefined method purge & same for variant using ruby 3.3.0-dev,"['activestorage', 'more-information-needed']",2024-02-01 05:45:14,kashifcodility
+Rails 7.1 doesn't render Enumerator in view correctly,['unlabeled'],2024-02-01 02:21:08,kuwabarahiroshi
+Fixes race condition for multiple preprocessed video variants,['activestorage'],2024-01-31 18:49:44,searls
+Support encrypting binary columns,['activerecord'],2024-01-30 10:53:34,djmb
+Add negative_scopes option to ActiveRecord's enum method,['activerecord'],2024-01-30 09:11:41,Jay0921
+Unexpected controller prefix path de-duplication in view partial lookup paths,['unlabeled'],2024-01-30 04:10:56,sfnelson
+Generate devcontainer files by default,"['actionpack', 'railties', 'activestorage', 'actionmailbox', 'actiontext']",2024-01-29 23:03:25,andrewn617
+[ci skip] [docs] make increment requirement explicit,['activesupport'],2024-01-29 00:07:29,jamiemccarthy
+[Fix #50897] Autosaving `has_one` sets foreign key attribute when unchanged,['activerecord'],2024-01-28 09:30:20,joshuay03
+Incorrectly raising `ReadonlyAttributeError` when autosaving `has_one` association with readonly foreign key,"['activerecord', 'attached PR']",2024-01-27 12:29:15,Earlopain
+Enhanced ActiveStorage variant tracking control,['activestorage'],2024-01-27 04:41:38,JaceBayless
+Add cost argument to has_secure_password,['activemodel'],2024-01-26 22:52:13,t27duck
+Documentation: Expand documentation on has_one_attached method [ci-skip].,['activestorage'],2024-01-26 20:02:30,Takahashi-Seiji
+Introduce `ActiveSupport::TestCase.around`,"['activesupport', 'docs']",2024-01-26 15:29:23,seanpdoyle
+"[Fix #50812] Don't duplicate selects, inner and outer joins when merging with STI",['activerecord'],2024-01-26 13:54:50,joshuay03
+Document Attached::Model#attachment_changes [ci skip],"['docs', 'activestorage']",2024-01-26 13:18:39,tsvallender
+Put plural inverse association inference behind a configuration flag,"['activerecord', 'railties']",2024-01-26 09:19:56,casperisfine
+Transform actionpack documentation to Markdown,['actionpack'],2024-01-25 19:53:03,rafaelfranca
+dump schema: ignore tables from any postgres schema,['activerecord'],2024-01-25 13:31:52,gagalago
+Comparing `Time` object with an integer doesn't throw an error ,"['activesupport', 'With reproduction steps']",2024-01-24 22:29:19,tgxworld
+Initialize ActiveRecord::Migrator.migrations_paths at application initialization,['activerecord'],2024-01-24 17:44:10,fsateler
+Accept Tempfile as ActiveStorage attachable,['activestorage'],2024-01-24 10:31:28,shouichi
+ActionView: Raise on invalid format,['actionview'],2024-01-24 08:37:24,3v0k4
+Support options for ActionMailer delivery callbacks,['actionmailer'],2024-01-23 23:16:27,fatkodima
+Document autosave validation behavior for ActiveRecord associations [ci skip],['activerecord'],2024-01-23 19:41:36,Dmoment
+Action View: Fallback to existing partial when possible,['actionview'],2024-01-23 15:19:52,seanpdoyle
+belongs_to association doesn't work with composite `primary_key` option,['activerecord'],2024-01-23 10:56:14,bguban
+Fixes ActionView::Template::Error when pasting images via Trix,['actiontext'],2024-01-23 02:14:58,schristm
+O(N^2) operation in `CollectionAssociation#replace_common_records_in_memory` and **another** O(N^2) operation in `ActiveStorage::Attached::Many#attach`,['unlabeled'],2024-01-23 01:29:33,malavbhavsar
+Set ActiveRecord::RecordNotFound#id when raised from a call to #reload a deleted record,['activerecord'],2024-01-23 00:04:37,segiddins
+`ActionView::Template::Error`: Missing Active Model partial when rendered from Controller declared in module,['unlabeled'],2024-01-22 22:05:18,seanpdoyle
+How to use Azure Managed Identity for authentication and authorization for Ruby On Rails Active Storage?,['unlabeled'],2024-01-22 16:41:34,avivansh
+Fix SQLite table definition parsing bug to handle commas in default function definitions,['activerecord'],2024-01-22 13:18:21,fractaledmind
+Ensure pre-7.1 migrations use legacy index names when using `rename_table`,['activerecord'],2024-01-22 12:59:01,fatkodima
+ActiveStorage::FileNotFoundError (ActiveStorage::FileNotFoundError),['more-information-needed'],2024-01-22 10:07:53,raoehtesham03
+`ActiveRecord::Migration[7.0]`'s `rename_table` uses 7.1's new truncated index name format,"['activerecord', 'attached PR', 'With reproduction steps']",2024-01-22 02:09:26,r7kamura
+Add support for `ActionMailer.*_delivery` callback `only` and `except` options,['actionmailer'],2024-01-21 12:31:43,viralpraxis
+Fix query references for non-hash association where clause values,['activerecord'],2024-01-21 06:11:40,ezekg
+Add examples for form helper tags [ci skip],['actionview'],2024-01-21 05:48:04,akhilgkrishnan
+System tests not working on Rails 7.1.3 running on a remote machine/docker container.,['unlabeled'],2024-01-21 00:44:06,srabuini
+[docs] Add more examples to `#in_order_of` [ci-skip],['activerecord'],2024-01-21 00:21:26,thdaraujo
+Add methods to `ActiveRecord::Relation::FinderMethods` to determine if it contains exactly/more than/less than N records,['activerecord'],2024-01-20 16:56:20,jordinl
+docs: Update validation status based on autosave status,['activerecord'],2024-01-20 09:24:46,MONSURU-rgb
+Add format constraints for generated pwa routes,['railties'],2024-01-19 23:10:41,rossta
+Redundant JOIN produced when merging relations from STI classes,['activerecord'],2024-01-19 20:59:12,mintyfresh
+Add multiple databases AR bug template [ci skip],['docs'],2024-01-19 12:54:28,HeyNonster
+Undocumented - validations enabled by autosave,['docs'],2024-01-19 10:47:52,semaperepelitsa
+PoC: Add an option to disable connection checkout caching,['activerecord'],2024-01-18 16:54:17,byroot
+`app:update` from Rails 7.1.2 to 7.1.3 creates `new_framework_defaults_7_1.rb`,['railties'],2024-01-18 16:15:11,GitToTheHub
+Add note about `params` hash in Action Controller Overview [ci skip] ,['docs'],2024-01-18 01:26:00,JunichiIto
+Preserve `--asset-pipeline propshaft` when running `app:update`,['railties'],2024-01-17 12:02:43,zachasme
+Tests can't run without yarn,['railties'],2024-01-16 21:11:58,arusa
+The `counter_cache_column?` method is depending of initialisation order.,['activerecord'],2024-01-16 15:54:58,BuonOmo
+Allow custom domain extractor class on ActionDispatch::Http::URL,['actionpack'],2024-01-15 23:32:04,rainerborene
+Improve documentation of ActiveRecord::Core.configurations,['activerecord'],2024-01-15 21:18:15,p8
+Migrate Rails API doc to use Markdown instead of RDoc format,['unlabeled'],2024-01-15 21:02:56,rafaelfranca
+Action Mailbox mistakes attachment as body if no body exists,['actionmailbox'],2024-01-15 08:23:19,HashNotAdam
+Allow named variants to evaluate dynamic transformation options,['activestorage'],2024-01-15 01:18:24,xjunior
+docs: Update FormHelper comments to use `form_with` instead of `form_for` [ci skip],['actionview'],2024-01-13 17:32:39,takatea
+docs: Adjust composite primary keys documentation [skip ci],['docs'],2024-01-12 18:49:57,matsales28
+Document passing hash as id option on create_table,['activerecord'],2024-01-12 17:21:32,javierav
+Action View Tests: Use `#with_routing` helper,"['railties', 'actionview']",2024-01-12 14:36:26,seanpdoyle
+Downcase the model name in the system scaffolds,['railties'],2024-01-12 10:51:23,dwightwatson
+Pool disabled query cache handling,['activerecord'],2024-01-12 09:06:56,djmb
+Expand documentation for ActiveRecord::Core #dup and #clone,['activerecord'],2024-01-11 19:46:53,p8
+Update `ActionDispatch::Routing::Mapper:Scoping#constraints` documentation,['actionpack'],2024-01-11 16:50:31,stevepolitodesign
+Backport: Define missing attribute methods from `method_missing`,['activerecord'],2024-01-11 08:26:24,casperisfine
+Add warning for non-existent directories in autoload paths for Zeitwerk,['railties'],2024-01-11 07:28:26,aeroastro
+Ignore the query cache in a block,['activerecord'],2024-01-10 10:47:07,djmb
+db:schema:load:<name> purges test database,"['activerecord', 'With reproduction steps']",2024-01-09 13:43:19,romuloceccon
+"`rails credentials:edit` lets you pass an unknown editor, without issuing any error report",['unlabeled'],2024-01-09 05:15:43,ArthurPV
+Rails 7.1 Create model with has_many with lambda incorrect default,"['activerecord', 'With reproduction steps']",2024-01-08 14:54:30,nikita-railsware
+Experiment | [Fix #47809] `load_async` support for collection associations,['activerecord'],2024-01-08 03:24:48,joshuay03
+Make `group`/`regroup` inside `merge` be applied to the merged relation,['activerecord'],2024-01-07 19:25:39,joaomarcos96
+Pass render options and block to calls to `#render_in`,"['actionpack', 'railties', 'docs', 'actionview']",2024-01-06 20:46:09,seanpdoyle
+Don't fail for uploads with content-type parameters in the ActiveStorage::DiskController,"['actionpack', 'activestorage']",2024-01-05 23:32:34,codergeek121
+allow dom_id method to accept an array of records_or_classes,['actionview'],2024-01-05 19:12:49,jwilsjustin
+[Fix #50604] Restore compatibility of Active Record Encryption configs with eager loading mode,"['activerecord', 'railties']",2024-01-05 18:03:09,maximerety
+Active Record Encryption configs not ready in eager loading mode,"['activerecord', 'attached PR']",2024-01-05 17:50:05,maximerety
+ActiveStorage::DiskController fails for uploads when Content-Type / media type contains a parameter,"['attached PR', 'With reproduction steps', 'activestorage']",2024-01-05 14:01:29,alexandergitter
+Document `upsert`/`upsert_all` `on_duplicate: :skip` option,['activerecord'],2024-01-05 13:49:07,lucasmazza
+Active Storage Variant causing Aws::S3::Errors::NoSuchKey error when deleting an attachment,['activestorage'],2024-01-04 18:44:36,basiszwo
+Port `ActiveRecord::AttributeMethods::Query` to Active Model,"['activemodel', 'activerecord']",2024-01-04 16:07:32,seanpdoyle
+CI: SQLite adapter is running in Trilogy tests,"['activerecord', 'ci issues']",2024-01-04 15:49:54,skipkayhil
+Add missing alias to errors array,['activemodel'],2024-02-03 01:01:09,laomatt
+esbuild precompilation error in rails 7.1.3,['unlabeled'],2024-02-02 14:43:34,PhilippGsell
+Add webp as a default to active_storage.web_image_content_types,"['railties', 'docs', 'activestorage']",2024-02-02 12:51:26,lewispb
+set default_enforce_utf8 to false,['actionview'],2024-02-02 11:11:21,ironsand
+Add class name to enum validation exception message,['activerecord'],2024-02-02 11:07:18,amkisko
+Add a Rails Guide for tuning performance for deployment,['docs'],2024-02-02 10:55:44,noahgibbs
+Destroying bi-directional has_one through association only works from one end,['unlabeled'],2024-02-02 10:14:36,airblade
+ActiveStorage::IntegrityError (ActiveStorage::IntegrityError),['unlabeled'],2024-02-02 04:43:40,raoehtesham03
+Fix error raised when running `db:schema:load:#{name}` and test DB config is missing,"['activerecord', 'railties']",2024-02-02 03:17:31,ricardotk002
+Introduce today_or_future? method,['activesupport'],2024-02-02 00:44:50,olimart
+Enable DependencyTracker to evaluate interpolated paths,['actionview'],2024-02-01 23:46:28,skipkayhil
+Setup jemalloc in default Dockerfile to optimize memory allocation,['railties'],2024-02-01 22:55:15,northeastprince
+Retry `ActionableError`s when running tests,"['activesupport', 'railties', 'docs']",2024-02-01 21:50:43,andrewn617
+Should there be a RAILS_MASTER_KEY_DUMMY like SECRET_KEY_BASE_DUMMY?,['unlabeled'],2024-02-01 14:57:42,dorianmariefr
+Refactor QueryCache to be owned by the pool,['activerecord'],2024-02-01 13:40:41,casperisfine
+Add ability to see on which shard the migration is being run,['activerecord'],2024-02-01 11:23:15,fatkodima
+Rails 7.1 undefined method purge & same for variant using ruby 3.3.0-dev,"['activestorage', 'more-information-needed']",2024-02-01 05:45:14,kashifcodility
+Rails 7.1 doesn't render Enumerator in view correctly,['unlabeled'],2024-02-01 02:21:08,kuwabarahiroshi
+Fixes race condition for multiple preprocessed video variants,['activestorage'],2024-01-31 18:49:44,searls
+Support encrypting binary columns,['activerecord'],2024-01-30 10:53:34,djmb
+Add negative_scopes option to ActiveRecord's enum method,['activerecord'],2024-01-30 09:11:41,Jay0921
+Unexpected controller prefix path de-duplication in view partial lookup paths,['unlabeled'],2024-01-30 04:10:56,sfnelson
+Generate devcontainer files by default,"['actionpack', 'railties', 'activestorage', 'actionmailbox', 'actiontext']",2024-01-29 23:03:25,andrewn617
+[ci skip] [docs] make increment requirement explicit,['activesupport'],2024-01-29 00:07:29,jamiemccarthy
+[Fix #50897] Autosaving `has_one` sets foreign key attribute when unchanged,['activerecord'],2024-01-28 09:30:20,joshuay03
+Incorrectly raising `ReadonlyAttributeError` when autosaving `has_one` association with readonly foreign key,"['activerecord', 'attached PR']",2024-01-27 12:29:15,Earlopain
+Enhanced ActiveStorage variant tracking control,['activestorage'],2024-01-27 04:41:38,JaceBayless
+Add cost argument to has_secure_password,['activemodel'],2024-01-26 22:52:13,t27duck
+Documentation: Expand documentation on has_one_attached method [ci-skip].,['activestorage'],2024-01-26 20:02:30,Takahashi-Seiji
+Introduce `ActiveSupport::TestCase.around`,"['activesupport', 'docs']",2024-01-26 15:29:23,seanpdoyle
+"[Fix #50812] Don't duplicate selects, inner and outer joins when merging with STI",['activerecord'],2024-01-26 13:54:50,joshuay03
+Document Attached::Model#attachment_changes [ci skip],"['docs', 'activestorage']",2024-01-26 13:18:39,tsvallender
+Put plural inverse association inference behind a configuration flag,"['activerecord', 'railties']",2024-01-26 09:19:56,casperisfine
+Transform actionpack documentation to Markdown,['actionpack'],2024-01-25 19:53:03,rafaelfranca
+dump schema: ignore tables from any postgres schema,['activerecord'],2024-01-25 13:31:52,gagalago
+Comparing `Time` object with an integer doesn't throw an error ,"['activesupport', 'With reproduction steps']",2024-01-24 22:29:19,tgxworld
+Initialize ActiveRecord::Migrator.migrations_paths at application initialization,['activerecord'],2024-01-24 17:44:10,fsateler
+Accept Tempfile as ActiveStorage attachable,['activestorage'],2024-01-24 10:31:28,shouichi
+ActionView: Raise on invalid format,['actionview'],2024-01-24 08:37:24,3v0k4
+Support options for ActionMailer delivery callbacks,['actionmailer'],2024-01-23 23:16:27,fatkodima
+Document autosave validation behavior for ActiveRecord associations [ci skip],['activerecord'],2024-01-23 19:41:36,Dmoment
+Action View: Fallback to existing partial when possible,['actionview'],2024-01-23 15:19:52,seanpdoyle
+belongs_to association doesn't work with composite `primary_key` option,['activerecord'],2024-01-23 10:56:14,bguban
+Fixes ActionView::Template::Error when pasting images via Trix,['actiontext'],2024-01-23 02:14:58,schristm
+O(N^2) operation in `CollectionAssociation#replace_common_records_in_memory` and **another** O(N^2) operation in `ActiveStorage::Attached::Many#attach`,['unlabeled'],2024-01-23 01:29:33,malavbhavsar
+Set ActiveRecord::RecordNotFound#id when raised from a call to #reload a deleted record,['activerecord'],2024-01-23 00:04:37,segiddins
+`ActionView::Template::Error`: Missing Active Model partial when rendered from Controller declared in module,['unlabeled'],2024-01-22 22:05:18,seanpdoyle
+How to use Azure Managed Identity for authentication and authorization for Ruby On Rails Active Storage?,['unlabeled'],2024-01-22 16:41:34,avivansh
+Fix SQLite table definition parsing bug to handle commas in default function definitions,['activerecord'],2024-01-22 13:18:21,fractaledmind
+Ensure pre-7.1 migrations use legacy index names when using `rename_table`,['activerecord'],2024-01-22 12:59:01,fatkodima
+ActiveStorage::FileNotFoundError (ActiveStorage::FileNotFoundError),['more-information-needed'],2024-01-22 10:07:53,raoehtesham03
+`ActiveRecord::Migration[7.0]`'s `rename_table` uses 7.1's new truncated index name format,"['activerecord', 'attached PR', 'With reproduction steps']",2024-01-22 02:09:26,r7kamura
+Add support for `ActionMailer.*_delivery` callback `only` and `except` options,['actionmailer'],2024-01-21 12:31:43,viralpraxis
+Fix query references for non-hash association where clause values,['activerecord'],2024-01-21 06:11:40,ezekg
+Add examples for form helper tags [ci skip],['actionview'],2024-01-21 05:48:04,akhilgkrishnan
+System tests not working on Rails 7.1.3 running on a remote machine/docker container.,['unlabeled'],2024-01-21 00:44:06,srabuini
+[docs] Add more examples to `#in_order_of` [ci-skip],['activerecord'],2024-01-21 00:21:26,thdaraujo
+Add methods to `ActiveRecord::Relation::FinderMethods` to determine if it contains exactly/more than/less than N records,['activerecord'],2024-01-20 16:56:20,jordinl
+docs: Update validation status based on autosave status,['activerecord'],2024-01-20 09:24:46,MONSURU-rgb
+Add format constraints for generated pwa routes,['railties'],2024-01-19 23:10:41,rossta
+Redundant JOIN produced when merging relations from STI classes,['activerecord'],2024-01-19 20:59:12,mintyfresh
+Add multiple databases AR bug template [ci skip],['docs'],2024-01-19 12:54:28,HeyNonster
+Undocumented - validations enabled by autosave,['docs'],2024-01-19 10:47:52,semaperepelitsa
+PoC: Add an option to disable connection checkout caching,['activerecord'],2024-01-18 16:54:17,byroot
+`app:update` from Rails 7.1.2 to 7.1.3 creates `new_framework_defaults_7_1.rb`,['railties'],2024-01-18 16:15:11,GitToTheHub
+Add note about `params` hash in Action Controller Overview [ci skip] ,['docs'],2024-01-18 01:26:00,JunichiIto
+Preserve `--asset-pipeline propshaft` when running `app:update`,['railties'],2024-01-17 12:02:43,zachasme
+Tests can't run without yarn,['railties'],2024-01-16 21:11:58,arusa
+The `counter_cache_column?` method is depending of initialisation order.,['activerecord'],2024-01-16 15:54:58,BuonOmo
+Allow custom domain extractor class on ActionDispatch::Http::URL,['actionpack'],2024-01-15 23:32:04,rainerborene
+Improve documentation of ActiveRecord::Core.configurations,['activerecord'],2024-01-15 21:18:15,p8
+Migrate Rails API doc to use Markdown instead of RDoc format,['unlabeled'],2024-01-15 21:02:56,rafaelfranca
+Action Mailbox mistakes attachment as body if no body exists,['actionmailbox'],2024-01-15 08:23:19,HashNotAdam
+Allow named variants to evaluate dynamic transformation options,['activestorage'],2024-01-15 01:18:24,xjunior
+docs: Update FormHelper comments to use `form_with` instead of `form_for` [ci skip],['actionview'],2024-01-13 17:32:39,takatea
+docs: Adjust composite primary keys documentation [skip ci],['docs'],2024-01-12 18:49:57,matsales28
+Document passing hash as id option on create_table,['activerecord'],2024-01-12 17:21:32,javierav
+Action View Tests: Use `#with_routing` helper,"['railties', 'actionview']",2024-01-12 14:36:26,seanpdoyle
+Downcase the model name in the system scaffolds,['railties'],2024-01-12 10:51:23,dwightwatson
+Pool disabled query cache handling,['activerecord'],2024-01-12 09:06:56,djmb
+Expand documentation for ActiveRecord::Core #dup and #clone,['activerecord'],2024-01-11 19:46:53,p8
+Update `ActionDispatch::Routing::Mapper:Scoping#constraints` documentation,['actionpack'],2024-01-11 16:50:31,stevepolitodesign
+Backport: Define missing attribute methods from `method_missing`,['activerecord'],2024-01-11 08:26:24,casperisfine
+Add warning for non-existent directories in autoload paths for Zeitwerk,['railties'],2024-01-11 07:28:26,aeroastro
+Ignore the query cache in a block,['activerecord'],2024-01-10 10:47:07,djmb
+db:schema:load:<name> purges test database,"['activerecord', 'With reproduction steps']",2024-01-09 13:43:19,romuloceccon
+"`rails credentials:edit` lets you pass an unknown editor, without issuing any error report",['unlabeled'],2024-01-09 05:15:43,ArthurPV
+Rails 7.1 Create model with has_many with lambda incorrect default,"['activerecord', 'With reproduction steps']",2024-01-08 14:54:30,nikita-railsware
+Experiment | [Fix #47809] `load_async` support for collection associations,['activerecord'],2024-01-08 03:24:48,joshuay03
+Make `group`/`regroup` inside `merge` be applied to the merged relation,['activerecord'],2024-01-07 19:25:39,joaomarcos96
+Pass render options and block to calls to `#render_in`,"['actionpack', 'railties', 'docs', 'actionview']",2024-01-06 20:46:09,seanpdoyle
+Don't fail for uploads with content-type parameters in the ActiveStorage::DiskController,"['actionpack', 'activestorage']",2024-01-05 23:32:34,codergeek121
+allow dom_id method to accept an array of records_or_classes,['actionview'],2024-01-05 19:12:49,jwilsjustin
+[Fix #50604] Restore compatibility of Active Record Encryption configs with eager loading mode,"['activerecord', 'railties']",2024-01-05 18:03:09,maximerety
+Active Record Encryption configs not ready in eager loading mode,"['activerecord', 'attached PR']",2024-01-05 17:50:05,maximerety
+ActiveStorage::DiskController fails for uploads when Content-Type / media type contains a parameter,"['attached PR', 'With reproduction steps', 'activestorage']",2024-01-05 14:01:29,alexandergitter
+Document `upsert`/`upsert_all` `on_duplicate: :skip` option,['activerecord'],2024-01-05 13:49:07,lucasmazza
+Active Storage Variant causing Aws::S3::Errors::NoSuchKey error when deleting an attachment,['activestorage'],2024-01-04 18:44:36,basiszwo
+Port `ActiveRecord::AttributeMethods::Query` to Active Model,"['activemodel', 'activerecord']",2024-01-04 16:07:32,seanpdoyle
+CI: SQLite adapter is running in Trilogy tests,"['activerecord', 'ci issues']",2024-01-04 15:49:54,skipkayhil
+Add missing alias to errors array,['activemodel'],2024-02-03 01:01:09,laomatt
+esbuild precompilation error in rails 7.1.3,['unlabeled'],2024-02-02 14:43:34,PhilippGsell
+Add webp as a default to active_storage.web_image_content_types,"['railties', 'docs', 'activestorage']",2024-02-02 12:51:26,lewispb
+set default_enforce_utf8 to false,['actionview'],2024-02-02 11:11:21,ironsand
+Add class name to enum validation exception message,['activerecord'],2024-02-02 11:07:18,amkisko
+Add a Rails Guide for tuning performance for deployment,['docs'],2024-02-02 10:55:44,noahgibbs
+Destroying bi-directional has_one through association only works from one end,['unlabeled'],2024-02-02 10:14:36,airblade
+ActiveStorage::IntegrityError (ActiveStorage::IntegrityError),['unlabeled'],2024-02-02 04:43:40,raoehtesham03
+Fix error raised when running `db:schema:load:#{name}` and test DB config is missing,"['activerecord', 'railties']",2024-02-02 03:17:31,ricardotk002
+Introduce today_or_future? method,['activesupport'],2024-02-02 00:44:50,olimart
+Enable DependencyTracker to evaluate interpolated paths,['actionview'],2024-02-01 23:46:28,skipkayhil
+Setup jemalloc in default Dockerfile to optimize memory allocation,['railties'],2024-02-01 22:55:15,northeastprince
+Retry `ActionableError`s when running tests,"['activesupport', 'railties', 'docs']",2024-02-01 21:50:43,andrewn617
+Should there be a RAILS_MASTER_KEY_DUMMY like SECRET_KEY_BASE_DUMMY?,['unlabeled'],2024-02-01 14:57:42,dorianmariefr
+Refactor QueryCache to be owned by the pool,['activerecord'],2024-02-01 13:40:41,casperisfine
+Add ability to see on which shard the migration is being run,['activerecord'],2024-02-01 11:23:15,fatkodima
+Rails 7.1 undefined method purge & same for variant using ruby 3.3.0-dev,"['activestorage', 'more-information-needed']",2024-02-01 05:45:14,kashifcodility
+Rails 7.1 doesn't render Enumerator in view correctly,['unlabeled'],2024-02-01 02:21:08,kuwabarahiroshi
+Fixes race condition for multiple preprocessed video variants,['activestorage'],2024-01-31 18:49:44,searls
+Support encrypting binary columns,['activerecord'],2024-01-30 10:53:34,djmb
+Add negative_scopes option to ActiveRecord's enum method,['activerecord'],2024-01-30 09:11:41,Jay0921
+Unexpected controller prefix path de-duplication in view partial lookup paths,['unlabeled'],2024-01-30 04:10:56,sfnelson
+Generate devcontainer files by default,"['actionpack', 'railties', 'activestorage', 'actionmailbox', 'actiontext']",2024-01-29 23:03:25,andrewn617
+[ci skip] [docs] make increment requirement explicit,['activesupport'],2024-01-29 00:07:29,jamiemccarthy
+[Fix #50897] Autosaving `has_one` sets foreign key attribute when unchanged,['activerecord'],2024-01-28 09:30:20,joshuay03
+Incorrectly raising `ReadonlyAttributeError` when autosaving `has_one` association with readonly foreign key,"['activerecord', 'attached PR']",2024-01-27 12:29:15,Earlopain
+Enhanced ActiveStorage variant tracking control,['activestorage'],2024-01-27 04:41:38,JaceBayless
+Add cost argument to has_secure_password,['activemodel'],2024-01-26 22:52:13,t27duck
+Documentation: Expand documentation on has_one_attached method [ci-skip].,['activestorage'],2024-01-26 20:02:30,Takahashi-Seiji
+Introduce `ActiveSupport::TestCase.around`,"['activesupport', 'docs']",2024-01-26 15:29:23,seanpdoyle
+"[Fix #50812] Don't duplicate selects, inner and outer joins when merging with STI",['activerecord'],2024-01-26 13:54:50,joshuay03
+Document Attached::Model#attachment_changes [ci skip],"['docs', 'activestorage']",2024-01-26 13:18:39,tsvallender
+Put plural inverse association inference behind a configuration flag,"['activerecord', 'railties']",2024-01-26 09:19:56,casperisfine
+Transform actionpack documentation to Markdown,['actionpack'],2024-01-25 19:53:03,rafaelfranca
+dump schema: ignore tables from any postgres schema,['activerecord'],2024-01-25 13:31:52,gagalago
+Comparing `Time` object with an integer doesn't throw an error ,"['activesupport', 'With reproduction steps']",2024-01-24 22:29:19,tgxworld
+Initialize ActiveRecord::Migrator.migrations_paths at application initialization,['activerecord'],2024-01-24 17:44:10,fsateler
+Accept Tempfile as ActiveStorage attachable,['activestorage'],2024-01-24 10:31:28,shouichi
+ActionView: Raise on invalid format,['actionview'],2024-01-24 08:37:24,3v0k4
+Support options for ActionMailer delivery callbacks,['actionmailer'],2024-01-23 23:16:27,fatkodima
+Document autosave validation behavior for ActiveRecord associations [ci skip],['activerecord'],2024-01-23 19:41:36,Dmoment
+Action View: Fallback to existing partial when possible,['actionview'],2024-01-23 15:19:52,seanpdoyle
+belongs_to association doesn't work with composite `primary_key` option,['activerecord'],2024-01-23 10:56:14,bguban
+Fixes ActionView::Template::Error when pasting images via Trix,['actiontext'],2024-01-23 02:14:58,schristm
+O(N^2) operation in `CollectionAssociation#replace_common_records_in_memory` and **another** O(N^2) operation in `ActiveStorage::Attached::Many#attach`,['unlabeled'],2024-01-23 01:29:33,malavbhavsar
+Set ActiveRecord::RecordNotFound#id when raised from a call to #reload a deleted record,['activerecord'],2024-01-23 00:04:37,segiddins
+`ActionView::Template::Error`: Missing Active Model partial when rendered from Controller declared in module,['unlabeled'],2024-01-22 22:05:18,seanpdoyle
+How to use Azure Managed Identity for authentication and authorization for Ruby On Rails Active Storage?,['unlabeled'],2024-01-22 16:41:34,avivansh
+Fix SQLite table definition parsing bug to handle commas in default function definitions,['activerecord'],2024-01-22 13:18:21,fractaledmind
+Ensure pre-7.1 migrations use legacy index names when using `rename_table`,['activerecord'],2024-01-22 12:59:01,fatkodima
+ActiveStorage::FileNotFoundError (ActiveStorage::FileNotFoundError),['more-information-needed'],2024-01-22 10:07:53,raoehtesham03
+`ActiveRecord::Migration[7.0]`'s `rename_table` uses 7.1's new truncated index name format,"['activerecord', 'attached PR', 'With reproduction steps']",2024-01-22 02:09:26,r7kamura
+Add support for `ActionMailer.*_delivery` callback `only` and `except` options,['actionmailer'],2024-01-21 12:31:43,viralpraxis
+Fix query references for non-hash association where clause values,['activerecord'],2024-01-21 06:11:40,ezekg
+Add examples for form helper tags [ci skip],['actionview'],2024-01-21 05:48:04,akhilgkrishnan
+System tests not working on Rails 7.1.3 running on a remote machine/docker container.,['unlabeled'],2024-01-21 00:44:06,srabuini
+[docs] Add more examples to `#in_order_of` [ci-skip],['activerecord'],2024-01-21 00:21:26,thdaraujo
+Add methods to `ActiveRecord::Relation::FinderMethods` to determine if it contains exactly/more than/less than N records,['activerecord'],2024-01-20 16:56:20,jordinl
+docs: Update validation status based on autosave status,['activerecord'],2024-01-20 09:24:46,MONSURU-rgb
+Add format constraints for generated pwa routes,['railties'],2024-01-19 23:10:41,rossta
+Redundant JOIN produced when merging relations from STI classes,['activerecord'],2024-01-19 20:59:12,mintyfresh
+Add multiple databases AR bug template [ci skip],['docs'],2024-01-19 12:54:28,HeyNonster
+Undocumented - validations enabled by autosave,['docs'],2024-01-19 10:47:52,semaperepelitsa
+PoC: Add an option to disable connection checkout caching,['activerecord'],2024-01-18 16:54:17,byroot
+`app:update` from Rails 7.1.2 to 7.1.3 creates `new_framework_defaults_7_1.rb`,['railties'],2024-01-18 16:15:11,GitToTheHub
+Add note about `params` hash in Action Controller Overview [ci skip] ,['docs'],2024-01-18 01:26:00,JunichiIto
+Preserve `--asset-pipeline propshaft` when running `app:update`,['railties'],2024-01-17 12:02:43,zachasme
+Tests can't run without yarn,['railties'],2024-01-16 21:11:58,arusa
+The `counter_cache_column?` method is depending of initialisation order.,['activerecord'],2024-01-16 15:54:58,BuonOmo
+Allow custom domain extractor class on ActionDispatch::Http::URL,['actionpack'],2024-01-15 23:32:04,rainerborene
+Improve documentation of ActiveRecord::Core.configurations,['activerecord'],2024-01-15 21:18:15,p8
+Migrate Rails API doc to use Markdown instead of RDoc format,['unlabeled'],2024-01-15 21:02:56,rafaelfranca
+Action Mailbox mistakes attachment as body if no body exists,['actionmailbox'],2024-01-15 08:23:19,HashNotAdam
+Allow named variants to evaluate dynamic transformation options,['activestorage'],2024-01-15 01:18:24,xjunior
+docs: Update FormHelper comments to use `form_with` instead of `form_for` [ci skip],['actionview'],2024-01-13 17:32:39,takatea
+docs: Adjust composite primary keys documentation [skip ci],['docs'],2024-01-12 18:49:57,matsales28
+Document passing hash as id option on create_table,['activerecord'],2024-01-12 17:21:32,javierav
+Action View Tests: Use `#with_routing` helper,"['railties', 'actionview']",2024-01-12 14:36:26,seanpdoyle
+Downcase the model name in the system scaffolds,['railties'],2024-01-12 10:51:23,dwightwatson
+Pool disabled query cache handling,['activerecord'],2024-01-12 09:06:56,djmb
+Expand documentation for ActiveRecord::Core #dup and #clone,['activerecord'],2024-01-11 19:46:53,p8
+Update `ActionDispatch::Routing::Mapper:Scoping#constraints` documentation,['actionpack'],2024-01-11 16:50:31,stevepolitodesign
+Backport: Define missing attribute methods from `method_missing`,['activerecord'],2024-01-11 08:26:24,casperisfine
+Add warning for non-existent directories in autoload paths for Zeitwerk,['railties'],2024-01-11 07:28:26,aeroastro
+Ignore the query cache in a block,['activerecord'],2024-01-10 10:47:07,djmb
+db:schema:load:<name> purges test database,"['activerecord', 'With reproduction steps']",2024-01-09 13:43:19,romuloceccon
+"`rails credentials:edit` lets you pass an unknown editor, without issuing any error report",['unlabeled'],2024-01-09 05:15:43,ArthurPV
+Rails 7.1 Create model with has_many with lambda incorrect default,"['activerecord', 'With reproduction steps']",2024-01-08 14:54:30,nikita-railsware
+Experiment | [Fix #47809] `load_async` support for collection associations,['activerecord'],2024-01-08 03:24:48,joshuay03
+Make `group`/`regroup` inside `merge` be applied to the merged relation,['activerecord'],2024-01-07 19:25:39,joaomarcos96
+Pass render options and block to calls to `#render_in`,"['actionpack', 'railties', 'docs', 'actionview']",2024-01-06 20:46:09,seanpdoyle
+Don't fail for uploads with content-type parameters in the ActiveStorage::DiskController,"['actionpack', 'activestorage']",2024-01-05 23:32:34,codergeek121
+allow dom_id method to accept an array of records_or_classes,['actionview'],2024-01-05 19:12:49,jwilsjustin
+[Fix #50604] Restore compatibility of Active Record Encryption configs with eager loading mode,"['activerecord', 'railties']",2024-01-05 18:03:09,maximerety
+Active Record Encryption configs not ready in eager loading mode,"['activerecord', 'attached PR']",2024-01-05 17:50:05,maximerety
+ActiveStorage::DiskController fails for uploads when Content-Type / media type contains a parameter,"['attached PR', 'With reproduction steps', 'activestorage']",2024-01-05 14:01:29,alexandergitter
+Document `upsert`/`upsert_all` `on_duplicate: :skip` option,['activerecord'],2024-01-05 13:49:07,lucasmazza
+Active Storage Variant causing Aws::S3::Errors::NoSuchKey error when deleting an attachment,['activestorage'],2024-01-04 18:44:36,basiszwo
+Port `ActiveRecord::AttributeMethods::Query` to Active Model,"['activemodel', 'activerecord']",2024-01-04 16:07:32,seanpdoyle
+CI: SQLite adapter is running in Trilogy tests,"['activerecord', 'ci issues']",2024-01-04 15:49:54,skipkayhil
