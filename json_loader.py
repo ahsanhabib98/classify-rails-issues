@@ -18,7 +18,7 @@ for _ in range(5):
         break
 
 # Specify the file name to store the issues
-file_name = 'github_issues.json'
+file_name = 'rails_issues.json'
 
 # Write the issues to the JSON file
 with open(file_name, 'w') as file:
